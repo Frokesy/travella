@@ -20,7 +20,7 @@ const Body = () => {
               <img src="/assets/arrow__Vector.svg" alt="arrow vector" className="w-[1.5rem]" />
           </button>
       </div>
-            <div className="w-[60%]">
+            <div className="w-[60%] mt-14">
             <div className="relative flex w-[50vw] mt-[6vh] justify-end">
                 <div className="">
                  <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute top-20 h-[60vh] right-[10vw]" /> 
@@ -41,7 +41,7 @@ const Body = () => {
                     <img src="/assets/bodyImg__Four.svg" alt="img" className="" />
                     <img src="/assets/bodyImg__Five.svg" alt="img" className="" />
                 </div>
-                <div className="bg-[#00095F] w-[25vw]">
+                <div className="bg-[#00095F]">
                   <div className="pt-14 px-10 text-white">
                     <h2 className="text-[24px]">About Us</h2>
                     <div className="flex flex-col space-y-8 w-[20vw] pt-10">
@@ -74,6 +74,31 @@ const Body = () => {
                   </div>
                 </div>
               </div>
+           </div>
+
+
+           {/**Section Three */}
+           <div className="flex w-screen mt-[10vh]">
+           <div className="bg-[url('/public/assets/bodyImg__Seven.svg')] bg-center bg-cover bg-no-repeat  items-center justify-center w-[40%]">
+              </div>
+            <div className="w-[60%] bg-[#00095F]">
+              <div className="flex flex-col text-[40px] -space-y-2 text-white px-20 py-10">
+              <span>We Know</span>
+              <span><span className="text-[#5ABAFF]">&amp; Understand</span> your</span>
+              <span>great choice</span>
+              </div>
+              <p className="text-white text-[16px] font-light w-[40vw] px-20">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem lorem gravida dui molestie consectetur id pulvinar elit. Nisl etiam dictum nunc ante. Nunc tortor massa nunc risus nec quam. Sed in turpis proin integer justo sit vitae quam. Praesent augue in odio tristique cursus mattis sapien. Eu quis nisi euismod porttitor 
+              </p>
+
+              <div className="mt-14 flex space-x-10 px-20 mb-[10vh]">
+                <img src="/assets/roundArrow__Left.svg" alt="img" />
+                <img src="/assets/bodyImg__Eight.svg" alt="img" />
+                <img src="/assets/bodyImg__Nine.svg" alt="img" />
+                <img src="/assets/bodyImg__Ten.svg" alt="img" />
+                <img src="/assets/roundArrow__Right.svg" alt="img" />
+              </div>
+            </div>
            </div>
       </div>
   )

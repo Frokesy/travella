@@ -5,7 +5,7 @@ const Header = () => {
     <div className="flex w-screen">
 
       {/**Section One */}
-      <div className="bg-[#00095F] w-[60%] h-auto px-[6vw] py-6">
+      <div className="bg-[#00095F] w-[60%] px-[6vw] py-6">
         <img src="/assets/template__logo.svg" alt="logo" className='w-[12rem]' />
         <div className="mt-[15vh] text-white">
           <h2 className="text-[60px] w-[35vw]">
@@ -18,7 +18,7 @@ const Header = () => {
               <img src="/assets/arrow__Vector.svg" alt="arrow vector" className="w-[1.5rem]" />
           </button>
 
-          <div className="flex space-x-4 mt-[10vh] items-center">
+          <div className="flex space-x-4 mt-[10vh] items-center mb-[8vh]">
             <img src="/assets/headerImg__Two.svg" alt="headerImg__Two" className="w-[2.5rem]" />
             <span className="uppercase text-[22px] whitespace-pre tracking-wide">Your     House     Colony</span>
           </div>
@@ -26,7 +26,7 @@ const Header = () => {
       </div>
 
       {/**Section Two */}
-      <div className="bg-[url('/public/assets/headerImg__One.svg')] bg-center bg-cover bg-no-repeat h-screen items-center justify-center w-[40%]">
+      <div className="bg-[url('/public/assets/headerImg__One.svg')] bg-center bg-cover bg-no-repeat  items-center justify-center w-[40%]">
         <div className="flex space-x-8 text-white px-14 py-6 text-[16px] tracking-wide">
           <span>Home</span>
           <span>New Estate</span>
