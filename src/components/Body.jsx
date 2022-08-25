@@ -21,10 +21,10 @@ const Body = () => {
           </button>
       </div>
             <div className="lg:mt-6">
-            <div className="relative flex ml-[18vw] lg:ml-0 lg:w-auto w-[100vw] lg:mt-[6vh]">
+            <div className="relative flex ml-[15vw] lg:ml-0 lg:w-auto w-[90vw] mx-auto lg:mt-[6vh]">
                 <div className="">
-                 <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute lg:top-20 top-[5vh] right-[30vw] lg:w-auto w-[90%] lg:h-[60vh] h-[90%] lg:right-[10vw]" /> 
-                 <img src="/assets/bodyImg__One.svg" alt="" className="absolute lg:top-[35vh] top-[14vh] lg:right-[26vw] right-[50vw] lg:h-[45vh] lg:w-auto w-[75%]" />
+                 <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute lg:top-20 top-[8vh] right-[25vw] lg:w-auto w-[90%] lg:h-[60vh] h-[90%] lg:right-[10vw]" /> 
+                 <img src="/assets/bodyImg__One.svg" alt="" className="absolute lg:top-[35vh] top-[20vh] lg:right-[26vw] right-[45vw] lg:h-[45vh] lg:w-auto w-[75%]" />
 
                 </div>
                  <img src="/assets/bodyImg__Three.svg" alt="img" className="lg:h-[80vh] lg:w-auto w-[80vw] w-auto" />
