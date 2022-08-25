@@ -3,19 +3,19 @@ import React from 'react'
 const Body = () => {
   return (
       <div>
-            <div className="flex justify-between w-[90vw] mx-auto">
-      <div className=" mt-[15vh]">
+            <div className="flex flex-col lg:flex-row justify-between w-[90vw] mx-auto">
+      <div className=" lg:mt-[15vh] mt-[10vh]">
         <h2 className="text-[26px] font-bold">Collection in 2022</h2>
-        <div className="flex flex-col -space-y-2 mt-10 font-semibold text-[40px]">
+        <div className="flex flex-col -space-y-2 mt-10 font-semibold text-[36px] lg:text-[40px]">
             <p>Rich Home</p>
             <p className="text-[#00095F]">Your First Choice</p>
             <p>From $150K</p>
         </div>
-        <p className="mt-6 w-[25vw] text-[15px] font-light">
+        <p className="mt-6 lg:w-[25vw] w-full text-[15px] font-light">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo sagittis, ultricies viverra faucibus eget senectus pellentesque. Mauris, platea cras liberormentum eu mattis dolor, sagittis velit int
         </p>
 
-        <button className="flex items-center px-10 py-4 text-[18px] mt-14 bg-[#5ABAFF] text-white space-x-6">
+        <button className="flex items-center px-10 py-4 text-[13px] lg:text-[18px] mt-14 bg-[#5ABAFF] text-white space-x-6">
               <span>Get Started</span>
               <img src="/assets/arrow__Vector.svg" alt="arrow vector" className="w-[1.5rem]" />
           </button>
