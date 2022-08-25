@@ -3,8 +3,8 @@ import React from 'react'
 const Body = () => {
   return (
       <div>
-            <div className="flex justify-between">
-      <div className="w-[40%] mt-[20vh]  px-[6vw]">
+            <div className="flex justify-between w-[90vw] mx-auto">
+      <div className=" mt-[15vh]">
         <h2 className="text-[26px] font-bold">Collection in 2022</h2>
         <div className="flex flex-col -space-y-2 mt-10 font-semibold text-[40px]">
             <p>Rich Home</p>
@@ -20,8 +20,8 @@ const Body = () => {
               <img src="/assets/arrow__Vector.svg" alt="arrow vector" className="w-[1.5rem]" />
           </button>
       </div>
-            <div className="w-[60%] mt-14">
-            <div className="relative flex w-[50vw] mt-[6vh] justify-end">
+            <div className="mt-6">
+            <div className="relative flex mt-[6vh]">
                 <div className="">
                  <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute top-20 h-[60vh] right-[10vw]" /> 
                  <img src="/assets/bodyImg__One.svg" alt="" className="absolute top-[35vh] right-[26vw] h-[45vh]" />
@@ -35,14 +35,14 @@ const Body = () => {
 
 
            {/**About Section*/}
-           <div className="mt-[10vh] h-[90vh]">
-              <div className="flex px-[6vw] gap-6">
+           <div className="mt-[8vh] flex w-[90vw] mx-auto justify-center">
+              <div className="flex space-x-6 mr-[3vw]">
                 <div className="mt-[6vh] flex flex-col space-y-4">
                     <img src="/assets/bodyImg__Four.svg" alt="img" className="" />
                     <img src="/assets/bodyImg__Five.svg" alt="img" className="" />
                 </div>
                 <div className="bg-[#00095F]">
-                  <div className="pt-14 px-10 text-white">
+                  <div className="pt-16 pb-[12vh] px-10 text-white">
                     <h2 className="text-[24px]">About Us</h2>
                     <div className="flex flex-col space-y-8 w-[20vw] pt-10">
                       <p>
@@ -55,13 +55,12 @@ const Body = () => {
                         condimentum ipsum sed aliquet hendrerit blandit. Vitae placerat viverra cras aliquam euismod donec auctor vel auctor. Nunc a.
                       </p>
                     </div>
-                    <button className="flex items-center px-10 py-2 uppercase text-[18px] mt-24 bg-[#5ABAFF] text-white space-x-6">
+                    <button className="flex items-center px-10 py-2 uppercase text-[18px] mt-16 bg-[#5ABAFF] text-white space-x-6">
                         Read More
                     </button>
-                    <div className="mt-[10vh]"></div>
                   </div>
                 </div>
-                <div className="mt-[6vh] w-[25vw]">
+                <div className="mt-[6vh]">
                   <img src="/assets/bodyImg__Six.svg" alt="img" className="h-[40vh] object-cover w-full"/>
                   <div className="flex flex-col -space-y-2 font-bold">
                     <span className="text-[24px]">Soft and cozy</span>
