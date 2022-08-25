@@ -24,7 +24,7 @@ const Body = () => {
             <div className="relative flex ml-[18vw] lg:ml-0 lg:w-auto w-[90vw] mx-auto lg:mt-[6vh]">
                 <div className="">
                  <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute lg:top-20 top-[15vh] right-[35vw] lg:w-auto w-[80%] lg:h-[60vh] lg:right-[10vw]" /> 
-                 <img src="/assets/bodyImg__One.svg" alt="" className="absolute lg:top-[35vh] top-[24vh] lg:right-[26vw] right-[53vw] lg:h-[45vh] lg:w-auto w-[75%]" />
+                 <img src="/assets/bodyImg__One.svg" alt="" className="absolute lg:top-[35vh] top-[26vh] lg:right-[26vw] right-[53vw] lg:h-[45vh] lg:w-auto w-[75%]" />
 
                 </div>
                  <img src="/assets/bodyImg__Three.svg" alt="img" className="lg:h-[80vh] lg:w-auto w-[75vw] w-auto" />
