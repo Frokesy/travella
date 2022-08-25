@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div> 
-      <div className="w-[90vw] mt-[25vh] mx-auto bg-[url('/public/assets/footerImg__One.svg')] bg-center bg-cover bg-no-repeat p-20 items-center justify-center">
-      <div className="w-[70vw] pt-6 mx-auto bg-[url('/public/assets/imgBlur.svg')] bg-center bg-cover bg-no-repeat items-center justify-center">
+      <div className="lg:w-[90vw] w-full lg:mt-[25vh] mt-[5vh] mx-auto bg-[url('/public/assets/footerImg__One.svg')] bg-center bg-cover bg-no-repeat lg:p-20 p-10 items-center justify-center">
+      <div className="lg:w-[70vw] pt-6 mx-auto bg-[url('/public/assets/imgBlur.svg')] bg-cover lg:block hidden ">
             <span className="flex items-center justify-center opacity-100 text-center text-[#00095F] text-[32px] font-bold">Let&apos;s stay in touch</span>
             <p className="font-semibold text-[20px] my-3 flex justify-center">Enjoy 15% off your first order when you join our mailing list.</p>
 
@@ -18,11 +18,27 @@ const Footer = () => {
 
             <p className="flex justify-center text-[15px] pb-14 font-semibold">We respect your privacy so we never share your info</p>
         </div>
+
+           {/**Mobile */}
+            <div className="lg:hidden">
+            <span className="flex items-center justify-center opacity-100 text-center text-[#5ABAFF] lg:text-[#00095F] text-[24px] lg:text-[32px] font-bold">Let&apos;s stay in touch</span>
+            <p className="font-semibold lg:text-[20px] text-[14px] lg:text-black text-white text-center my-3 flex justify-center">Enjoy 15% off your first order when you join our mailing list.</p>
+
+            <div className="flex justify-center lg:w-[30vw] w-[90vw] mt-10 mb-10 mx-auto">
+                <input type="email" name="email" className="mt-1 px-4 py-3 bg-transparent border shadow-sm border-[#0F5FA9] focus:outline-none w-full focus:border-sky-500 placeholder:text-white lg:placeholder:text-black focus:ring-sky-500 block sm:text-sm focus:ring-1" placeholder="Enter your email address" />
+             
+                <button className="px-6 py-2 uppercase text-[13px] bg-[#0F5FA9] text-white">
+                    Subscribe
+                </button>
+            </div>
+
+            <p className="flex justify-center text-[15px] pb-10 text-white font-semibold">We respect your privacy so we never share your info</p>
+            </div>
       </div>
 
       {/**Footer */}
       <div className="w-screen bg-[#00095F] mt-[10vh]">
-        <div className="flex w-[80vw] text-white mx-auto pt-14 space-x-[10vw]">
+        <div className="flex lg:flex-row flex-col w-[80vw] text-white mx-auto pt-14 space-y-[5vh] lg:space-y-0 lg:space-x-[10vw]">
             <div className="flex flex-col space-y-2">
                 <h2 className="text-[20px] mb-4">Contact Info</h2>
                 <span className="text-[13px] text-[#5ABAFF]">Phone: +24567812456</span>
