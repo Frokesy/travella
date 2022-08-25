@@ -20,14 +20,14 @@ const Body = () => {
               <img src="/assets/arrow__Vector.svg" alt="arrow vector" className="w-[1.5rem]" />
           </button>
       </div>
-            <div className="mt-6">
-            <div className="relative flex mt-[6vh]">
+            <div className="lg:mt-6">
+            <div className="relative flex ml-[18vw] lg:ml-0 lg:w-auto w-[100vw] lg:mt-[6vh]">
                 <div className="">
-                 <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute top-20 h-[60vh] right-[10vw]" /> 
-                 <img src="/assets/bodyImg__One.svg" alt="" className="absolute top-[35vh] right-[26vw] h-[45vh]" />
+                 <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute lg:top-20 top-[4vh] right-[30vw] lg:w-auto w-[90%] lg:h-[60vh] lg:right-[10vw]" /> 
+                 <img src="/assets/bodyImg__One.svg" alt="" className="absolute lg:top-[35vh] top-[12vh] lg:right-[26vw] right-[50vw] lg:h-[45vh] lg:w-auto w-[80%]" />
 
                 </div>
-                 <img src="/assets/bodyImg__Three.svg" alt="img" className="h-[80vh] w-auto" />
+                 <img src="/assets/bodyImg__Three.svg" alt="img" className="lg:h-[80vh] lg:w-auto w-[85vw] w-auto" />
                 </div>
             </div>
            </div>
@@ -35,16 +35,16 @@ const Body = () => {
 
 
            {/**About Section*/}
-           <div className="mt-[8vh] flex w-[90vw] mx-auto justify-center">
-              <div className="flex space-x-6 mr-[3vw]">
-                <div className="mt-[6vh] flex flex-col space-y-4">
+           <div className="lg:mt-[8vh] mt-20 flex w-[90vw] mx-auto justify-center">
+              <div className="flex lg:flex-row flex-col space-x-6 mr-[3vw]">
+                <div className="lg:mt-[6vh] lg:flex hidden flex-col space-y-4">
                     <img src="/assets/bodyImg__Four.svg" alt="img" className="" />
                     <img src="/assets/bodyImg__Five.svg" alt="img" className="" />
                 </div>
-                <div className="bg-[#00095F]">
+                <div className="bg-[#00095F] lg:w-[auto] w-[90vw]">
                   <div className="pt-16 pb-[12vh] px-10 text-white">
                     <h2 className="text-[24px]">About Us</h2>
-                    <div className="flex flex-col space-y-8 w-[20vw] pt-10">
+                    <div className="flex flex-col space-y-8 lg:w-[20vw] pt-10">
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi vestibulum enim nullam nam arcu sed convallis. Aliquam rhoncus tincidunt faucibus interdum sed sit eget. Eget eu pharetra, bibendum vitae luctus morbi. Eleifend aliquam morbi turpis vitae. Arcu vestibulum rhoncus diam commodo nunc sit eget donec nec
                       </p>
@@ -66,7 +66,7 @@ const Body = () => {
                     <span className="text-[24px]">Soft and cozy</span>
                     <span className="text-[#5ABAFF] text-[24px]">Estate Awesome</span>
                   </div>
-                  <div className="w-[20vw]">
+                  <div className="lg:w-[20vw]">
                     <span className="text-[16px] font-light">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit egestas dignissim pellentesque feugiat etiam donec vivamus. Diam et aliquet f
                     </span>
@@ -77,7 +77,7 @@ const Body = () => {
 
 
            {/**Section Three */}
-           <div className="flex w-screen mt-[10vh]">
+           <div className="lg:flex hidden w-screen mt-[10vh]">
            <div className="bg-[url('/public/assets/bodyImg__Seven.svg')] bg-center bg-cover bg-no-repeat  items-center justify-center w-[40%]">
               </div>
             <div className="w-[60%] bg-[#00095F]">
@@ -93,6 +93,29 @@ const Body = () => {
               <div className="mt-14 flex space-x-10 px-20 mb-[10vh]">
                 <img src="/assets/roundArrow__Left.svg" alt="img" />
                 <img src="/assets/bodyImg__Eight.svg" alt="img" />
+                <img src="/assets/bodyImg__Nine.svg" alt="img" />
+                <img src="/assets/bodyImg__Ten.svg" alt="img" />
+                <img src="/assets/roundArrow__Right.svg" alt="img" />
+              </div>
+            </div>
+           </div>
+
+
+          {/**Section Three -- Mobile */}
+          <div className="lg:hidden w-screen mt-[10vh]">
+           <div className="bg-[url('/public/assets/bodyImg__Seven.svg')] bg-center bg-cover bg-no-repeat  items-center justify-center">
+              <div className="flex flex-col lg:text-[40px] text-[30px] -space-y-2 text-white lg:px-20 px-10 py-10">
+              <span>We Know</span>
+              <span><span className="text-[#5ABAFF]">&amp; Understand</span> your</span>
+              <span>great choice</span>
+              </div>
+              <p className="text-white text-[16px] font-light lg:w-[40vw] lg:px-20 px-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem lorem gravida dui molestie consectetur id pulvinar elit. Nisl etiam dictum nunc ante. Nunc tortor massa nunc risus nec quam. Sed in turpis proin integer justo sit vitae quam. Praesent augue in odio tristique cursus mattis sapien. Eu quis nisi euismod porttitor 
+              </p>
+
+              <div className="mt-14 flex space-x-4 px-2 pb-20 ">
+                <img src="/assets/roundArrow__Left.svg" alt="img" />
+                <img src="/assets/bodyImg__Eight.svg" alt="img" className="lg:block hidden" />
                 <img src="/assets/bodyImg__Nine.svg" alt="img" />
                 <img src="/assets/bodyImg__Ten.svg" alt="img" />
                 <img src="/assets/roundArrow__Right.svg" alt="img" />
