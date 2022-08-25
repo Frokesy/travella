@@ -22,17 +22,17 @@ const Footer = () => {
            {/**Mobile */}
             <div className="lg:hidden">
             <span className="flex items-center justify-center opacity-100 text-center text-[#5ABAFF] lg:text-[#00095F] text-[24px] lg:text-[32px] font-bold">Let&apos;s stay in touch</span>
-            <p className="font-semibold lg:text-[20px] text-[14px] lg:text-black text-white text-center my-3 flex justify-center">Enjoy 15% off your first order when you join our mailing list.</p>
+            <p className="font-semibold lg:text-[20px] text-[14px] lg:text-black text-neutral-200 text-center my-3 flex justify-center">Enjoy 15% off your first order when you join our mailing list.</p>
 
             <div className="flex justify-center lg:w-[30vw] w-[90vw] mt-10 mb-10 mx-auto">
-                <input type="email" name="email" className="mt-1 px-4 py-3 bg-transparent border shadow-sm border-[#0F5FA9] focus:outline-none w-full focus:border-sky-500 placeholder:text-white lg:placeholder:text-black focus:ring-sky-500 block sm:text-sm focus:ring-1" placeholder="Enter your email address" />
+                <input type="email" name="email" className="mt-1 px-4 py-3 bg-transparent border shadow-sm border-[#0F5FA9] focus:outline-none w-full focus:border-sky-500 placeholder:text-[#5ABAFF] lg:placeholder:text-black focus:ring-sky-500 block sm:text-sm focus:ring-1" placeholder="Enter your email address" />
              
                 <button className="px-6 py-2 uppercase text-[13px] bg-[#0F5FA9] text-white">
                     Subscribe
                 </button>
             </div>
 
-            <p className="flex justify-center text-[15px] pb-10 text-white font-semibold">We respect your privacy so we never share your info</p>
+            <p className="flex justify-center text-[15px] pb-10 text-neutral-200 font-semibold">We respect your privacy so we never share your info</p>
             </div>
       </div>
 

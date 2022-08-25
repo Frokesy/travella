@@ -14,7 +14,7 @@ const Header = () => {
             Now It&apos;s Time To Find 
             <span className="text-[#5ABAFF]"> Your Home</span> 
           </h2>
-          <p className="text-[15px] lg:text-[20px] w-[85vw] lg:mt-0 mt-10 mx-auto lg:w-[45vw] font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo sagittis, ultricies viverra faucibus eget senectus pellentesque. Mauris, platea cras libero lorem eget turpis ullamcorper aliquet nisi. Varius duis nunc, pellentesque amet, natoque ultrices accumsan. Fermentum eu mattis dolor, sagittis velit int</p>
+          <p className="text-[15px] lg:text-[20px] w-[85vw] lg:mt-0 mt-10 lg:w-[45vw] font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo sagittis, ultricies viverra faucibus eget senectus pellentesque. Mauris, platea cras libero lorem eget turpis ullamcorper aliquet nisi. Varius duis nunc, pellentesque amet, natoque ultrices accumsan. Fermentum eu mattis dolor, sagittis velit int</p>
           <button className="flex items-center px-10 py-4 text-[13px] lg:text-[18px] mt-14 bg-[#5ABAFF] space-x-6">
               <span>Get Started</span>
               <img src="/assets/arrow__Vector.svg" alt="arrow vector" className="w-[1.5rem]" />

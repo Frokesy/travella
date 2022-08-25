@@ -23,11 +23,11 @@ const Body = () => {
             <div className="lg:mt-6">
             <div className="relative flex ml-[18vw] lg:ml-0 lg:w-auto w-[100vw] lg:mt-[6vh]">
                 <div className="">
-                 <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute lg:top-20 top-[4vh] right-[30vw] lg:w-auto w-[90%] lg:h-[60vh] lg:right-[10vw]" /> 
-                 <img src="/assets/bodyImg__One.svg" alt="" className="absolute lg:top-[35vh] top-[12vh] lg:right-[26vw] right-[50vw] lg:h-[45vh] lg:w-auto w-[80%]" />
+                 <img src="/assets/bodyImg__Two.svg" alt="img" className="absolute lg:top-20 top-[5vh] right-[30vw] lg:w-auto w-[90%] lg:h-[60vh] h-[90%] lg:right-[10vw]" /> 
+                 <img src="/assets/bodyImg__One.svg" alt="" className="absolute lg:top-[35vh] top-[14vh] lg:right-[26vw] right-[50vw] lg:h-[45vh] lg:w-auto w-[75%]" />
 
                 </div>
-                 <img src="/assets/bodyImg__Three.svg" alt="img" className="lg:h-[80vh] lg:w-auto w-[85vw] w-auto" />
+                 <img src="/assets/bodyImg__Three.svg" alt="img" className="lg:h-[80vh] lg:w-auto w-[80vw] w-auto" />
                 </div>
             </div>
            </div>
@@ -35,14 +35,14 @@ const Body = () => {
 
 
            {/**About Section*/}
-           <div className="lg:mt-[8vh] mt-20 flex w-[90vw] mx-auto justify-center">
-              <div className="flex lg:flex-row flex-col space-x-6 mr-[3vw]">
+           <div className="lg:mt-[8vh] mt-20 lg:flex w-[90vw] mx-auto lg:justify-center">
+              <div className="flex lg:flex-row flex-col lg:space-x-6 lg:mr-[3vw]">
                 <div className="lg:mt-[6vh] lg:flex hidden flex-col space-y-4">
                     <img src="/assets/bodyImg__Four.svg" alt="img" className="" />
                     <img src="/assets/bodyImg__Five.svg" alt="img" className="" />
                 </div>
                 <div className="bg-[#00095F] lg:w-[auto] w-[90vw]">
-                  <div className="pt-16 pb-[12vh] px-10 text-white">
+                  <div className="pt-16 pb-[12vh] lg:px-10 px-6 text-white">
                     <h2 className="text-[24px]">About Us</h2>
                     <div className="flex flex-col space-y-8 lg:w-[20vw] pt-10">
                       <p>
